@@ -50,7 +50,6 @@ class buku {
         this.Tahun = Tahun ;
     }
     
-    //@Override
     public String toString() {
         String str = "Buku       |Judul = " + getJudul() + "|Jenis = " + getJenis() + "|Harga = " + getHarga() + "|Tebal = " + getHalaman() + "|ISBN = " + getISBN() + "|Tahun Terbit = " + getTahun() + "|" ;
         return str ;
@@ -94,7 +93,6 @@ class penulis {
         String str = "Penulis    |Nama + " + getNama() + "|Id = " + getId() + "|Gender = " + getGender() + "|Email = " + getEmail() + "|" ;
         return str ;
     }
-    
 }
 
 public class Book {
