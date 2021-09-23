@@ -1,52 +1,52 @@
 package PBOgetset ;
 
 class buku {
-    private String Judul ;
-    private String Jenis ;
-    private int Harga ;
-    private int Halaman ;
-    private String ISBN ;
-    private int Tahun ;
+    String Judul ;
+    String Jenis ;
+    int Harga ;
+    int Halaman ;
+    String ISBN ;
+    int Tahun ;
 
     public String getJudul() {
         return Judul ;
     }
-    public void setJudul(final String Judul) {
+    public void setJudul(String Judul) {
         this.Judul = Judul ;
     }
 
     public String getJenis() {
         return Jenis ;
     }
-    public void setJenis(final String Jenis) {
+    public void setJenis(String Jenis) {
         this.Jenis = Jenis ;
     }
 
     public int getHarga() {
         return Harga ;
     }
-    public void setHarga(final int Harga) {
+    public void setHarga(int Harga) {
         this.Harga = Harga ;
     }
 
     public int getHalaman() {
         return Halaman ;
     }
-    public void setHalaman(final int Halaman) {
+    public void setHalaman(int Halaman) {
         this.Halaman = Halaman ;
     }
 
     public String getISBN() {
         return ISBN ;
     }
-    public void setISBN(final String ISBN) {
+    public void setISBN(String ISBN) {
         this.ISBN = ISBN ;
     }
 
     public int getTahun() {
         return Tahun ;
     }
-    public void setTahun(final int Tahun) {
+    public void setTahun(int Tahun) {
         this.Tahun = Tahun ;
     }
     
@@ -58,10 +58,10 @@ class buku {
 }
 
 class penulis {
-    private String Nama ;
-    private int Id ;
-    private char Gender ;
-    private String Email ;
+    String Nama ;
+    int Id ;
+    char Gender ;
+    String Email ;
 
     public String getNama() {
         return Nama ;
